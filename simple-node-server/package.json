@@ -1,0 +1,22 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calcutator pesudocode.js",
+  "scripts": {
+    "start": "node index",
+    "test": "tape tests/**/*-test.js | tap-diff"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "cheerio": "^0.22.0",
+    "supertest": "^2.0.1",
+    "tap-diff": "^0.1.1",
+    "tape": "^4.6.3"
+  }
+}
